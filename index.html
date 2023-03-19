@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイムスケジュール</title>
+    <link rel = "stylesheet" href = "index.css">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <h1>Time Table</h1>
+    <div class = timd>
+        <p id="datetime"></p>
+    </div>   
+
+
+    <div id="timetable">
+        <table class = "cyber-table">
+          <thead>
+            <tr>
+              <th>時間</th>
+              <th>内容</th>
+            </tr>
+          </thead>
+          <tbody>
+           
+          </tbody>
+        </table>
+      </div>
+
+    <footer>  
+          <button onclick="location.href='todo.html'" class = "btn">TODOリスト</button>
+          <button id="save-button" class = "btn">保存</button>
+          <button id="warituke-button" class = "btn" >作成</button>
+          <button id = "allLiset" class = "btn">リセット</button>
+    </footer>
+      
+
+      <script src = "time.js"></script>
+      <script src = "index.js"></script>
+      <script src = "todo.js"></script>
+</body>
+</html>

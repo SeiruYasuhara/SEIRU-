@@ -1,0 +1,170 @@
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;  
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td.writable {
+  background-color: #a2ff9e;
+}
+
+td.not-writable {
+  background-color: #f08080;
+}
+
+td.content {
+  min-height: 40px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+
+Copy code
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-bottom: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#todo-list-container {
+  margin: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-content {
+  flex: 1;
+}
+
+.delete-button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+ .btn {
+  color:black;
+  text-align:center;
+
+  }
+  
+  /* テーブルのスタイル */
+  table {
+    border-collapse: collapse;
+    border: 2px solid #fff;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    margin-bottom: 15%;
+  }
+  
+  /* テーブルのヘッダー */
+  thead {
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* テーブルのセル */
+  td, th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #fff;
+  }
+  
+  /* テーブルの奇数行 */
+  tbody tr:nth-child(odd) {
+    background-color: #555;
+  }
+  
+  /* テーブルの偶数行 */
+  tbody tr:nth-child(even) {
+    background-color: #444;
+  }
+  
+  /* テーブルのホバーエフェクト */
+  tbody tr:hover {
+    background-color: #666;
+  }
+  
+  
+  /* テーブルのボーダー */
+  table td:first-child, table th:first-child {
+    border-left: 1px solid #fff;
+  }
+  
+  table td:last-child, table th:last-child {
+    border-right: 1px solid #fff;
+  }
+  
+  .timd {
+    text-align: center;
+}
+    
+footer {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #4CAF50;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+}
+
+.btn {
+  flex-basis: 25%;
+}
+
+
+.container {
+  margin-left: 20px;
+}
+
+.formcontent{
+  width: 80%;
+}
+
+.formdream {
+  height:30%;
+}
